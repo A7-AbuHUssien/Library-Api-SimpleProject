@@ -1,0 +1,82 @@
+# Library Management System Database Schema
+
+## Tables
+
+### Authors
+- **AuthorID** (Primary Key)
+- **AuthorName** (Unique)
+
+### Categories
+- **CategoryID** (Primary Key)
+- **CategoryName** (Unique)
+
+### Books
+- **BookID** (Primary Key)
+- **BookTitle**
+- **AuthorID** (Foreign Key)
+- **CategoryID** (Foreign Key)
+- **PublicationYear**
+- **IsFree** (Default Value: 1)
+
+### Clients
+- **ClientID** (Primary Key)
+- **ClientName**
+- **Email** (Unique)
+- **Phone** (Unique)
+- **RegistrationDate** (Default Value: GETDATE())
+
+### Borrowing
+- **BorrowingID** (Primary Key)
+- **ClientID** (Foreign Key)
+- **BookID** (Foreign Key)
+- **BorrowDate**
+- **ReturnDate**
+
+---
+
+## Stored Procedures
+
+| Procedure Name                | Description                                                                                    |
+|-------------------------------|------------------------------------------------------------------------------------------------|
+| **SP_GetAllBooks**            | Retrieves a comprehensive list of all books, including author and category names.              |
+| **SP_GetBookByID**            | Fetches a single book's details by its ID.                                                     |
+| **SP_AddBook**                | Inserts a new book; automatically adds new author or category if they don't exist.             |
+| **SP_UpdateBook**             | Modifies the details of an existing book.                                                      |
+| **SP_DeleteBook**             | Deletes a book only if it is not currently borrowed.                                           |
+| **SP_AddAuthor**              | Adds a new author.                                                                             |
+| **SP_DeleteAuthor**           | Deletes an author only if they have no books in the system.                                    |
+| **SP_GetAuthors**             | Retrieves all authors and their book titles.                                                   |
+| **SP_GetCategories**          | Retrieves all book categories.                                                                 |
+| **SP_AddCategory**            | Adds a new category.                                                                           |
+| **SP_DeleteCategory**         | Deletes a category only if it is not assigned to any books.                                    |
+| **SP_AddClient**              | Registers a new client after validating phone and email uniqueness.                            |
+| **SP_GetAllClients**          | Retrieves all registered clients.                                                              |
+| **SP_GetClientByID**          | Fetches a client’s details by ID.                                                              |
+| **SP_UpdateClient**           | Updates client details ensuring no phone/email conflict.                                       |
+| **SP_DeleteClient**           | Deletes a client only if no outstanding borrowings exist.                                      |
+| **SP_GetClientByPhoneOrEmail**| Finds a client by phone or email.                                                              |
+| **SP_AddBorrowing**           | Adds a borrowing record after verifying client and book exist and book availability.           |
+| **SP_GetBorrowings**          | Retrieves all borrowing records with status (Returned or Not Returned).                        |
+| **SP_ReturnBook**             | Marks a borrowing record as returned by setting ReturnDate.                                    |
+| **SP_GetAllBorrowingsDetails**| Fetches all borrowing records with full details and status.                                    |
+| **SP_GetAvailableBooks**      | Lists all available books for borrowing.                                                       |
+
+---
+
+## Functions
+
+| Function Name                    | Description                                                                                             |
+|----------------------------------|---------------------------------------------------------------------------------------------------------|
+| **IsBookExists**                 | Checks if a book exists based on its ID.                                                                |
+| **IsClientExistsByID**           | Checks if a client exists based on their ID.                                                            |
+| **IsClientExistsByPhoneOrEmail** | Checks if a client exists by phone or email; optionally excludes a specific client ID (for updates).    |
+
+---
+
+## Triggers
+
+| Trigger Name                      | Description                                                                                     |
+|-----------------------------------|-------------------------------------------------------------------------------------------------|
+| **TR_BookNotFree_AfterBorrow**.   | Sets book’s `IsFree` status to 0 after borrowing.                                               |
+| **TRG_UpdateBookIsFree_OnReturn** | Sets book’s `IsFree` status back to 1 after returning.                                          |
+

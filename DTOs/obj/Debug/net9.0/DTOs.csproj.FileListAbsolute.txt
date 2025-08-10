@@ -1,0 +1,11 @@
+/Users/bu-hussien/Private/Projects/Library/DTOs/bin/Debug/net9.0/DTOs.deps.json
+/Users/bu-hussien/Private/Projects/Library/DTOs/bin/Debug/net9.0/DTOs.dll
+/Users/bu-hussien/Private/Projects/Library/DTOs/bin/Debug/net9.0/DTOs.pdb
+/Users/bu-hussien/Private/Projects/Library/DTOs/obj/Debug/net9.0/DTOs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bu-hussien/Private/Projects/Library/DTOs/obj/Debug/net9.0/DTOs.AssemblyInfoInputs.cache
+/Users/bu-hussien/Private/Projects/Library/DTOs/obj/Debug/net9.0/DTOs.AssemblyInfo.cs
+/Users/bu-hussien/Private/Projects/Library/DTOs/obj/Debug/net9.0/DTOs.csproj.CoreCompileInputs.cache
+/Users/bu-hussien/Private/Projects/Library/DTOs/obj/Debug/net9.0/DTOs.dll
+/Users/bu-hussien/Private/Projects/Library/DTOs/obj/Debug/net9.0/refint/DTOs.dll
+/Users/bu-hussien/Private/Projects/Library/DTOs/obj/Debug/net9.0/DTOs.pdb
+/Users/bu-hussien/Private/Projects/Library/DTOs/obj/Debug/net9.0/ref/DTOs.dll
