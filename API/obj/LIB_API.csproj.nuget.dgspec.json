@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bu-hussien/Private/Projects/Library/LIB_API/LIB_API.csproj": {}
+  },
+  "projects": {
+    "/Users/bu-hussien/Private/Projects/Library/BLL/BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bu-hussien/Private/Projects/Library/BLL/BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "/Users/bu-hussien/Private/Projects/Library/BLL/BLL.csproj",
+        "packagesPath": "/Users/bu-hussien/.nuget/packages/",
+        "outputPath": "/Users/bu-hussien/Private/Projects/Library/BLL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bu-hussien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/bu-hussien/Private/Projects/Library/DAL/DAL.csproj": {
+                "projectPath": "/Users/bu-hussien/Private/Projects/Library/DAL/DAL.csproj"
+              },
+              "/Users/bu-hussien/Private/Projects/Library/DTOs/DTOs.csproj": {
+                "projectPath": "/Users/bu-hussien/Private/Projects/Library/DTOs/DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bu-hussien/Private/Projects/Library/DAL/DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bu-hussien/Private/Projects/Library/DAL/DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "/Users/bu-hussien/Private/Projects/Library/DAL/DAL.csproj",
+        "packagesPath": "/Users/bu-hussien/.nuget/packages/",
+        "outputPath": "/Users/bu-hussien/Private/Projects/Library/DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bu-hussien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/bu-hussien/Private/Projects/Library/DTOs/DTOs.csproj": {
+                "projectPath": "/Users/bu-hussien/Private/Projects/Library/DTOs/DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.0-preview2.25178.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bu-hussien/Private/Projects/Library/DTOs/DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bu-hussien/Private/Projects/Library/DTOs/DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "/Users/bu-hussien/Private/Projects/Library/DTOs/DTOs.csproj",
+        "packagesPath": "/Users/bu-hussien/.nuget/packages/",
+        "outputPath": "/Users/bu-hussien/Private/Projects/Library/DTOs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bu-hussien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bu-hussien/Private/Projects/Library/LIB_API/LIB_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bu-hussien/Private/Projects/Library/LIB_API/LIB_API.csproj",
+        "projectName": "LIB_API",
+        "projectPath": "/Users/bu-hussien/Private/Projects/Library/LIB_API/LIB_API.csproj",
+        "packagesPath": "/Users/bu-hussien/.nuget/packages/",
+        "outputPath": "/Users/bu-hussien/Private/Projects/Library/LIB_API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bu-hussien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/bu-hussien/Private/Projects/Library/BLL/BLL.csproj": {
+                "projectPath": "/Users/bu-hussien/Private/Projects/Library/BLL/BLL.csproj"
+              },
+              "/Users/bu-hussien/Private/Projects/Library/DTOs/DTOs.csproj": {
+                "projectPath": "/Users/bu-hussien/Private/Projects/Library/DTOs/DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
