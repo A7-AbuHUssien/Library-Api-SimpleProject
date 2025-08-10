@@ -1,0 +1,15 @@
+/Users/bu-hussien/Private/Projects/Library/DALL/bin/Debug/net9.0/DALL.deps.json
+/Users/bu-hussien/Private/Projects/Library/DALL/bin/Debug/net9.0/DALL.dll
+/Users/bu-hussien/Private/Projects/Library/DALL/bin/Debug/net9.0/DALL.pdb
+/Users/bu-hussien/Private/Projects/Library/DALL/bin/Debug/net9.0/DTOs.dll
+/Users/bu-hussien/Private/Projects/Library/DALL/bin/Debug/net9.0/DTOs.pdb
+/Users/bu-hussien/Private/Projects/Library/DALL/obj/Debug/net9.0/DALL.csproj.AssemblyReference.cache
+/Users/bu-hussien/Private/Projects/Library/DALL/obj/Debug/net9.0/DALL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bu-hussien/Private/Projects/Library/DALL/obj/Debug/net9.0/DALL.AssemblyInfoInputs.cache
+/Users/bu-hussien/Private/Projects/Library/DALL/obj/Debug/net9.0/DALL.AssemblyInfo.cs
+/Users/bu-hussien/Private/Projects/Library/DALL/obj/Debug/net9.0/DALL.csproj.CoreCompileInputs.cache
+/Users/bu-hussien/Private/Projects/Library/DALL/obj/Debug/net9.0/DALL.csproj.Up2Date
+/Users/bu-hussien/Private/Projects/Library/DALL/obj/Debug/net9.0/DALL.dll
+/Users/bu-hussien/Private/Projects/Library/DALL/obj/Debug/net9.0/refint/DALL.dll
+/Users/bu-hussien/Private/Projects/Library/DALL/obj/Debug/net9.0/DALL.pdb
+/Users/bu-hussien/Private/Projects/Library/DALL/obj/Debug/net9.0/ref/DALL.dll

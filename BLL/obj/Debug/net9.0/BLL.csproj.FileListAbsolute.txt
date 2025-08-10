@@ -1,0 +1,17 @@
+/Users/bu-hussien/Private/Projects/Library/BLL/obj/Debug/net9.0/BLL.csproj.AssemblyReference.cache
+/Users/bu-hussien/Private/Projects/Library/BLL/obj/Debug/net9.0/BLL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bu-hussien/Private/Projects/Library/BLL/obj/Debug/net9.0/BLL.AssemblyInfoInputs.cache
+/Users/bu-hussien/Private/Projects/Library/BLL/obj/Debug/net9.0/BLL.AssemblyInfo.cs
+/Users/bu-hussien/Private/Projects/Library/BLL/obj/Debug/net9.0/BLL.csproj.CoreCompileInputs.cache
+/Users/bu-hussien/Private/Projects/Library/BLL/bin/Debug/net9.0/BLL.deps.json
+/Users/bu-hussien/Private/Projects/Library/BLL/bin/Debug/net9.0/BLL.dll
+/Users/bu-hussien/Private/Projects/Library/BLL/bin/Debug/net9.0/BLL.pdb
+/Users/bu-hussien/Private/Projects/Library/BLL/bin/Debug/net9.0/DTOs.dll
+/Users/bu-hussien/Private/Projects/Library/BLL/bin/Debug/net9.0/DTOs.pdb
+/Users/bu-hussien/Private/Projects/Library/BLL/obj/Debug/net9.0/BLL.csproj.Up2Date
+/Users/bu-hussien/Private/Projects/Library/BLL/obj/Debug/net9.0/BLL.dll
+/Users/bu-hussien/Private/Projects/Library/BLL/obj/Debug/net9.0/refint/BLL.dll
+/Users/bu-hussien/Private/Projects/Library/BLL/obj/Debug/net9.0/BLL.pdb
+/Users/bu-hussien/Private/Projects/Library/BLL/obj/Debug/net9.0/ref/BLL.dll
+/Users/bu-hussien/Private/Projects/Library/BLL/bin/Debug/net9.0/DAL.dll
+/Users/bu-hussien/Private/Projects/Library/BLL/bin/Debug/net9.0/DAL.pdb
