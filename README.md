@@ -55,5 +55,5 @@ All **business logic** is centralized in **SQL Server stored procedures**, while
 ---
 
 ## 📌 Author
-**Your Name**  
+**Ahmed Esam Abuhussien**  
 Learning Project — Layered Architecture with Stored Procedures
