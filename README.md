@@ -49,7 +49,7 @@ All **business logic** is centralized in **SQL Server stored procedures**, while
 ## 🚀 How to Run
 1. Clone the repository.
 2. Set up the SQL Server database using the provided scripts.
-3. Configure the connection string in the `appsettings.json` file.
+3. Configure the connection string in the `ConnectionString Class`.
 4. Build and run the project from Visual Studio or via the CLI.
 
 ---
