@@ -15,7 +15,7 @@ All **business logic** is centralized in **SQL Server stored procedures**, while
 - **ADO.NET**
 - **SQL Server**
 - **T-SQL Stored Procedures**
-- **Layered Architecture (API → BLL → DAL)**
+- **Layered Architecture (API → BLL → DAL→ DB)**
 
 ---
 
